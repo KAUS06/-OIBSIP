@@ -1,0 +1,262 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: Helvetica;
+    margin: 0;
+  }
+header{
+  
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 250px;
+   
+}
+
+.logo{
+      height: 50px;
+      padding-left: 280px;
+}
+
+nav {
+  
+    width: 30%;
+    max-width: 650px;
+    height: 50px;
+    padding-right: 170px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+  
+  nav > ul > li {
+    color:white;
+    margin: 0 0.1rem;
+    display: block;
+  }
+  
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .bg1{
+    padding-left: 280px;
+    position: relative;
+ 
+  }
+ #bg1{
+  height: 600px;
+  width: 1100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ }
+  .coffee-shop {
+    position: absolute;
+    bottom: 300px;
+    left: 900px;
+    color:white;
+    padding-top: 900px;
+     font-family: "Times New Roman", Times, serif;;
+    font-size:290%;
+     }
+
+     .shopdesc {
+      position: absolute;
+      bottom: 250px;
+      left: 840px;
+      color:white;
+      padding-top: 700px;
+       font-family: "Times New Roman", Times, serif;
+      font-size:90%;
+       }
+
+       .bg2{
+        
+        padding-left: 280px;
+        position: relative;
+     
+      }
+       
+      .opening-hours{
+        position: absolute;
+    bottom: 1100px;
+    left: 450px;
+    color:#e9ad93e3;
+    padding-top: 900px;
+     font-family: "Times New Roman", Times, serif;
+    font-size:290%;
+
+      }
+  
+      .days{
+        background: transparent;
+        position: absolute;
+        bottom: 700px;
+        left: 460px;
+        padding-top: 900px;
+         font-family: "Times New Roman", Times, serif;;
+        font-size:100%;
+        color: #fdaa87;
+        justify-content: space-between;
+        font-size:medium;
+
+      
+      }
+
+      .bg31{
+        background:transparent;
+        width: 380px;
+        height:370px;
+        display: inline-block;
+        padding-top: 80px;
+      }
+       
+      .our-products{
+        font-family: "Times New Roman", Times, serif;
+        padding-left: 450px;
+       
+        letter-spacing: 10px;
+        color: aliceblue;
+       
+        width: 650px;
+        padding-top: 90px;
+        font-size: larger
+
+      }
+      
+      .EISKAFFEE{
+        color: white;
+        padding-left: 120px;
+        letter-spacing: 5px;
+        
+        
+      }
+
+      .CAFFE-MOCHA{
+
+        color: white;
+        background:transparent;
+        display: inline-block;
+        padding-top: 80px;
+        width: 350px;
+        height:370px;
+      }
+        .CAFFE-MOCHA-text{
+          color: white;
+          padding-left: 100px;
+          letter-spacing: 5px;
+          
+        }
+      
+
+      .KOPI-JOSS{
+        color: white;
+        background:transparent;
+        display: inline-block;
+        padding-top: 80px;
+        width: 360px;
+        height:370px;
+      }
+
+      .KOPI-JOSS-text{
+        color: white;
+        padding-left: 120px;
+        letter-spacing: 5px;
+        
+      }
+
+ #EISKAFFEE{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+ #CAFFE-MOCHA{
+  padding-top: 30px;
+  padding-left: 25px;
+ }
+ #KOPI-JOSS{
+  padding-top: 30px;
+   padding-left: 30px;
+ }
+
+ .join{
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 730px;
+ 
+  letter-spacing: 10px;
+  color: aliceblue;
+ display: inline-block;
+  width: 650px;
+  padding-top: 90px;
+  font-size: larger
+
+}
+
+ .icons{
+  padding-left: 34%;
+  padding-top: 30px;
+ }
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+} 
+ .fa-facebook {
+  background:#6F4E37;
+  color: white;
+  
+ }
+
+.fa-twitter {
+  background: #6F4E37;
+  color: white;
+}
+
+.fa-google {
+  background: #6F4E37;
+  color: white;
+}
+
+.fa-linkedin {
+  background:#6F4E37;
+  color: white;
+}
+
+.fa-youtube {
+  background: #6F4E37;
+  color: white;
+}
+
+.fa-instagram {
+  background:#6F4E37;
+  color: white;
+}
+
+.fa-pinterest {
+  background:#6F4E37;
+  color: white;
+}
+
